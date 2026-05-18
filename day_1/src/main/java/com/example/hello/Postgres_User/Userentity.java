@@ -1,4 +1,4 @@
-package com.example.hello.Postgres_intern;
+package com.example.hello.Postgres_User;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -9,8 +9,8 @@ import lombok.Data;
 
 @Entity
 @Data
-@Table(name="")
-public class intern {
+@Table(name = "users")
+public class Userentity {
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Long id;
